@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ndGG0gngVCpJnN4d65lGNSNQBxLDk+JIc81yYlwibRlAN+XKoV8c7fw8C2uC8MpoZ7aLHOyiNE0EBohMFL+zlQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rzepk\\source\\repos\\Toast and Taste\\Toast and Taste.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rzepk\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\rzepk\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\rzepk\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\rzepk\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\rzepk\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\rzepk\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
