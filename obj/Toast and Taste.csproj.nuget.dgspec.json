@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rzepk\\source\\repos\\Toast and Taste\\Toast and Taste.csproj": {}
+    "C:\\Users\\manbe\\dev\\TOAST-TASTE-API\\Toast and Taste.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rzepk\\source\\repos\\Toast and Taste\\Toast and Taste.csproj": {
+    "C:\\Users\\manbe\\dev\\TOAST-TASTE-API\\Toast and Taste.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rzepk\\source\\repos\\Toast and Taste\\Toast and Taste.csproj",
+        "projectUniqueName": "C:\\Users\\manbe\\dev\\TOAST-TASTE-API\\Toast and Taste.csproj",
         "projectName": "Toast and Taste",
-        "projectPath": "C:\\Users\\rzepk\\source\\repos\\Toast and Taste\\Toast and Taste.csproj",
-        "packagesPath": "C:\\Users\\rzepk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rzepk\\source\\repos\\Toast and Taste\\obj\\",
+        "projectPath": "C:\\Users\\manbe\\dev\\TOAST-TASTE-API\\Toast and Taste.csproj",
+        "packagesPath": "C:\\Users\\manbe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\manbe\\dev\\TOAST-TASTE-API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\rzepk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\manbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
