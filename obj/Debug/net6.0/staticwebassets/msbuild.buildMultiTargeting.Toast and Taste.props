@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Toast and Taste.props" />
+</Project>
