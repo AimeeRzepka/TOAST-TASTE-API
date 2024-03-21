@@ -30,12 +30,12 @@ namespace Toast_and_Taste.Controllers
         {
 
             var user = new UserModel();
-            user = _TNTContext.Users.FirstOrDefault(l => l.UserName.ToLower() == username.ToLower());
+            user = _TNTContext.Users.FirstOrDefault(l => l.Username.ToLower().Trim() == username.ToLower().Trim());
             if (user != null)
-            {
-                
+            {                
                 var response = new UserModel();
-                response.UserName = user.UserName;
+                response.Id = user.Id;
+                response.Username = user.Username;
                 response.Email = user.Email;
                 response.FirstName = user.FirstName;
                 response.LastName = user.LastName;
@@ -52,7 +52,7 @@ namespace Toast_and_Taste.Controllers
         public IActionResult Post([FromBody] UserModel userModel)
         {
             var user = new UserModel();
-            user.UserName = userModel.UserName;
+            user.Username = userModel.Username;
             user.Email = userModel.Email;
             user.FirstName = userModel.FirstName;
             user.LastName = userModel.LastName;
@@ -61,7 +61,7 @@ namespace Toast_and_Taste.Controllers
             _TNTContext.Users.Add(user);
             _TNTContext.SaveChanges();
 
-            return Created($"/api/User/{user.UserName}", user);
+            return Created($"/api/User/{user.Username}", user);
 
 
         }
