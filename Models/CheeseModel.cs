@@ -4,7 +4,6 @@
     {
         public int Id { get; set; }
         public string Kind { get; set; }
-        public int Price { get; set; }
         public string WinePair { get; set; }
     }
 }
