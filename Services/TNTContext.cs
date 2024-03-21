@@ -11,5 +11,9 @@ namespace Toast_and_Taste.Services
         }
 
         public DbSet<CheeseModel> Cheeses { get; set;}
+
+        public DbSet<UserModel> Users { get; set; }
+        public DbSet<FavoriteModel> Favorites { get; set; }
+
     }
 }

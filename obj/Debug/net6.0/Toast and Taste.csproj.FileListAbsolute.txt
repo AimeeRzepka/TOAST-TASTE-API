@@ -64,3 +64,68 @@ C:\Users\manbe\dev\TOAST-TASTE-API\obj\Debug\net6.0\refint\Toast and Taste.dll
 C:\Users\manbe\dev\TOAST-TASTE-API\obj\Debug\net6.0\Toast and Taste.pdb
 C:\Users\manbe\dev\TOAST-TASTE-API\obj\Debug\net6.0\Toast and Taste.genruntimeconfig.cache
 C:\Users\manbe\dev\TOAST-TASTE-API\obj\Debug\net6.0\ref\Toast and Taste.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\appsettings.json
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\Toast and Taste.exe
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\Toast and Taste.deps.json
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\Toast and Taste.runtimeconfig.json
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\Toast and Taste.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\Toast and Taste.pdb
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\obj\Debug\net6.0\Toast and Taste.csproj.AssemblyReference.cache
+C:\Users\peggy\source\repos\TOAST-TASTE-API\obj\Debug\net6.0\Toast and Taste.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\peggy\source\repos\TOAST-TASTE-API\obj\Debug\net6.0\Toast and Taste.AssemblyInfoInputs.cache
+C:\Users\peggy\source\repos\TOAST-TASTE-API\obj\Debug\net6.0\Toast and Taste.AssemblyInfo.cs
+C:\Users\peggy\source\repos\TOAST-TASTE-API\obj\Debug\net6.0\Toast and Taste.csproj.CoreCompileInputs.cache
+C:\Users\peggy\source\repos\TOAST-TASTE-API\obj\Debug\net6.0\Toast and Taste.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\peggy\source\repos\TOAST-TASTE-API\obj\Debug\net6.0\Toast and Taste.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\peggy\source\repos\TOAST-TASTE-API\obj\Debug\net6.0\staticwebassets\msbuild.Toast and Taste.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\peggy\source\repos\TOAST-TASTE-API\obj\Debug\net6.0\staticwebassets\msbuild.build.Toast and Taste.props
+C:\Users\peggy\source\repos\TOAST-TASTE-API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Toast and Taste.props
+C:\Users\peggy\source\repos\TOAST-TASTE-API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Toast and Taste.props
+C:\Users\peggy\source\repos\TOAST-TASTE-API\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\peggy\source\repos\TOAST-TASTE-API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\peggy\source\repos\TOAST-TASTE-API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\peggy\source\repos\TOAST-TASTE-API\obj\Debug\net6.0\scopedcss\bundle\Toast and Taste.styles.css
+C:\Users\peggy\source\repos\TOAST-TASTE-API\obj\Debug\net6.0\Toast and Taste.csproj.CopyComplete
+C:\Users\peggy\source\repos\TOAST-TASTE-API\obj\Debug\net6.0\Toast and Taste.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\obj\Debug\net6.0\refint\Toast and Taste.dll
+C:\Users\peggy\source\repos\TOAST-TASTE-API\obj\Debug\net6.0\Toast and Taste.pdb
+C:\Users\peggy\source\repos\TOAST-TASTE-API\obj\Debug\net6.0\Toast and Taste.genruntimeconfig.cache
+C:\Users\peggy\source\repos\TOAST-TASTE-API\obj\Debug\net6.0\ref\Toast and Taste.dll
