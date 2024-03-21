@@ -22,11 +22,11 @@ namespace Toast_and_Taste.Controllers
             return Ok(response);
         }
 
-        [HttpGet("{username}")]
-        public IActionResult Get([FromRoute] string username)
+        [HttpGet("{userid}")]
+        public IActionResult Get([FromRoute] int userid)
         {
 
-            var response = _TNTContext.Favorites.Where(l => l.UserName.ToLower() == username.ToLower()).ToList();
+            var response = _TNTContext.Favorites.Where(l => l.UserId == userid).ToList();
             return response != null
                 ? Ok(response)
                 : NotFound();

@@ -39,8 +39,6 @@ namespace Toast_and_Taste.Controllers
                 response.Email = user.Email;
                 response.FirstName = user.FirstName;
                 response.LastName = user.LastName;
-
-                // remove password security
                 response.UserPassword = user.UserPassword;
                 return Ok(response);
             }
@@ -58,20 +56,7 @@ namespace Toast_and_Taste.Controllers
             user.Email = userModel.Email;
             user.FirstName = userModel.FirstName;
             user.LastName = userModel.LastName;
-
-            // add password security
             user.UserPassword = userModel.UserPassword;
-            /*
-            if (user.UserPassword != null) 
-            {
-                var data = Encoding.Unicode.GetBytes(user.UserPassword);
-                byte[] encrypted = ProtectedData.Protect(data, null, DataProtectionScope.CurrentUser);
-
-                //return as base64 string
-                user.UserPassword = Convert.ToBase64String(encrypted);
-            }
-
-            */
 
             _TNTContext.Users.Add(user);
             _TNTContext.SaveChanges();
@@ -91,10 +76,15 @@ namespace Toast_and_Taste.Controllers
         [HttpDelete("{id}")]
         public IActionResult Delete([FromRoute] int id)
         {
-            var user = _TNTContext.Users.Find(id);
+            var user = _TNTContext.Users.Find(id);            
 
             if (user != null)
             {
+                var favorite = _TNTContext.Favorites.FirstOrDefault(x => x.UserId == id);
+                if (favorite != null)
+                {
+                    return Ok(favorite);
+                }
                 _TNTContext.Users.Remove(user);
                 _TNTContext.SaveChanges();
                 return NoContent();
