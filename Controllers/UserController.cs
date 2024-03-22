@@ -67,9 +67,26 @@ namespace Toast_and_Taste.Controllers
         }
 
         [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody] UserModel user)
+        public IActionResult Put([FromBody] PostUserModel postuser, int id)
         {
-            return Created($"/api/[controller]/{id})", user);
+
+            var user = _TNTContext.Users.Find(id);
+
+            if (user != null)
+            {
+                user.Username = postuser.Username;
+                user.Email = postuser.Email;
+                user.FirstName = postuser.FirstName;
+                user.LastName = postuser.LastName;
+                user.UserPassword= postuser.UserPassword;
+
+                _TNTContext.Users.Update(user);
+                _TNTContext.SaveChanges();
+
+                return NoContent();
+            }
+
+            return NotFound();
         }
 
         
