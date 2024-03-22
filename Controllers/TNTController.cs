@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using Toast_and_Taste.Models;
 using Toast_and_Taste.Services;
 
@@ -21,8 +22,24 @@ namespace Toast_and_Taste.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            var response = _tNTContext.Cheeses.ToList();
+            var favorites = _tNTContext.Favorites.ToList();
+            var cheeses = _tNTContext.Cheeses.ToList();
+
+            List<CheeseFavoriteModel> response = new List<CheeseFavoriteModel>();
+
+            foreach (CheeseModel cheese in cheeses)
+            {
+                List<FavoriteModel> favorite = favorites.Where(l => l.CheeseId == cheese.Id).ToList();
+                Boolean isFavorite = false;
+                if (favorite.Count() != 0)
+                {
+                    isFavorite = true;
+                }
+
+                response.Add(new CheeseFavoriteModel() { Id = cheese.Id, Kind = cheese.Kind, WinePair = cheese.WinePair, IsFavorite = isFavorite });
+            }
             return Ok(response);
+            
         }
         
         // GET api/<TNTController>/5
