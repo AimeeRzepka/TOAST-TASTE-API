@@ -77,9 +77,19 @@ namespace Toast_and_Taste.Controllers
         public IActionResult Delete([FromRoute] int id)
         {
             var ticket = _tNTContext.Cheeses.Find(id);
+            var favoriteToRemove = _tNTContext.Favorites.FirstOrDefault(l => l.CheeseId == id);
 
             if (ticket != null)
             {
+                if (favoriteToRemove != null)
+                {                    
+                    if (ticket.Id == favoriteToRemove.CheeseId)
+                    {
+                        _tNTContext.Favorites.Remove(favoriteToRemove);
+                        _tNTContext.SaveChanges();
+                    }
+                   
+                }
                 _tNTContext.Cheeses.Remove(ticket);
                 _tNTContext.SaveChanges();
                 return NoContent();

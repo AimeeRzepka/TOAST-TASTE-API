@@ -2326,19 +2326,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\peggy\\.nuget\\packages\\": {}
+    "C:\\Users\\twoye\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\peggy\\source\\repos\\TOAST-TASTE-API\\Toast and Taste.csproj",
+      "projectUniqueName": "C:\\Users\\twoye\\source\\repos\\actonlauren\\ToastAndTaste_Backend\\Toast and Taste.csproj",
       "projectName": "Toast and Taste",
-      "projectPath": "C:\\Users\\peggy\\source\\repos\\TOAST-TASTE-API\\Toast and Taste.csproj",
-      "packagesPath": "C:\\Users\\peggy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\peggy\\source\\repos\\TOAST-TASTE-API\\obj\\",
+      "projectPath": "C:\\Users\\twoye\\source\\repos\\actonlauren\\ToastAndTaste_Backend\\Toast and Taste.csproj",
+      "packagesPath": "C:\\Users\\twoye\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\twoye\\source\\repos\\actonlauren\\ToastAndTaste_Backend\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\peggy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\twoye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

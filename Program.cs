@@ -35,7 +35,7 @@ namespace Toast_and_Taste
 
             builder.Services.AddDbContext<TNTContext>(options =>
             {
-                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+                options.UseSqlServer(("Data Source=localhost;Database=ToastAndTaste; User Id=sa; Password=reallyStrongPwd123;"));
             });
 
 
